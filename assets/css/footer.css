@@ -1,0 +1,66 @@
+#footer {
+
+height: auto;
+width: 100%;
+font-family: 'IBM';
+background-color: var(--azul);
+color: white;
+
+}
+
+.footer-link-image {
+
+width: 60px;    
+display: block;
+margin: auto;
+
+}
+
+.seta-footer {
+   
+width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+animation: arrowup 0.7s infinite alternate;
+
+
+}
+
+.paragrafo-footer {
+
+display: flex;
+justify-content: space-around;
+padding: 30px;
+border-top: 1px solid var(--azulclaro);
+margin-left: 10%;
+margin-right: 10%;
+
+
+}
+
+@media (max-width: 750px) {
+    
+    .paragrafo-footer {
+
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 0.6em;
+
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    
+    .paragrafo-footer {
+
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 0.6em;
+
+    }
+
+}

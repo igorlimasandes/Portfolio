@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+#inicio {
+
+height: 100vh;    
+display: flex;
+background-color: #1E3266;
+background-size: cover;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.nuvens {
+
+position: absolute;
+bottom: 0px;
+z-index: 0;
+
+}
+
+.nuvem1 {
+
+animation: nuvem1 10s infinite alternate;
+  
+}
+
+.nuvem2 {
+
+animation: nuvem2 8s infinite alternate;
+
+}
+
+.nuvem3 {
+
+animation: nuvem3 8s infinite alternate;
+
+}
+
+.nuvem4 {
+
+animation: nuvem4 3s infinite alternate;
+
+}
+
+.container-texto {
+
+display: block;
+text-align: center;
+
+}
+
+
+.inicio-item {
+
+font-family: 'IBM';    
+font-size: 1.8em;
+color: white;
+
+}
+
+.primeiro-p {
+
+animation: texto-inicio 2s both;
+margin: auto;
+white-space: nowrap;
+overflow: hidden;
+
+
+
+}
+
+.segundo-p {
+
+animation: texto-inicio 1s both 1.1s;
+white-space: nowrap;
+overflow: hidden;
+font-size: 3em;
+
+}
+
+.terceiro-p {
+
+animation: texto-inicio 2s both 2s;
+white-space: nowrap;
+overflow: hidden;
+margin: auto;
+
+}
+
+.container-redes-sociaissm {
+
+    display: flex;
+    justify-content: space-around;
+    
+    
+    }
+    .rede-socialsm:hover {
+
+      animation: redessociais360 0.5s;
+
+    }
+    
+    .rssb-link {
+    
+         position: relative;
+         z-index: 1;
+         margin-top: 100px;
+         animation: redessociaisinicio 2s both 2s;
+         background-color: transparent;
+         transition: background-color 1.2s;
+
+    }
+    
+    .rede-socialsm {
+    
+        width: 60px;
+    
+    }
+
+    @media (max-width:750px) {
+      
+      .rede-socialsm:hover {
+
+        animation: redessociais360 0s;
+  
+      }
+
+    }
+
+    @media (max-width:450px) {
+
+      .inicio-item {
+
+        font-family: 'IBM';    
+        font-size: 1.5em;
+        color: white;
+        
+        }
+        
+
+      .segundo-p {
+
+        font-size: 2.3em;
+        
+        }
+
+    }
+
+    @media (max-height: 550px) {
+      
+#inicio {
+
+height: 500px;
+
+}
+
+.container-texto {
+
+margin-top: 100px;
+  
+  }
+
+    }

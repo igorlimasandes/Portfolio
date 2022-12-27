@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+#habilidades {
+
+background-color: var(--branco);
+height: auto;
+
+
+}
+
+.container-habilidades {
+
+display: flex;
+justify-content: space-evenly ;
+
+}
+
+.caixa {
+
+display: flex;
+
+}
+
+.item-habilidade {
+
+display: flex;  
+justify-content: center;  
+margin: 15px;
+background-color: var(--azul);
+width: 80px;
+height: 80px;
+border-radius: 20px;
+align-items: center;
+border: 2px solid var(--branco);
+
+}
+
+.acao-habilidade {
+
+width: 300px;
+font-family: 'IBM';
+height: 225px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 115px;
+
+}
+
+.acao-habilidade h1 {
+
+text-align: center;
+
+}
+
+.acao-habilidade {
+
+text-align: justify;
+
+}
+
+.item-habilidade:hover {
+
+border: 2px solid var(--azulclaro);
+cursor: pointer;
+
+}
+
+.container-iconhabilidades {
+
+height: 225px;
+
+}
+
+.icon-habilidades {
+
+width: 60px;
+
+}
+
+@media (max-width: 700px) {
+
+    .container-habilidades {
+
+        flex-direction: column;
+        align-items: center;
+}
+
+.acao-habilidade {
+
+    margin-bottom: 50px;
+    height: auto;
+    
+    }
+
+    .container-habilidades {
+
+margin-bottom: 115px;
+
+    }
+}
+

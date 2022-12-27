@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#sobremim {
+
+display: flex;  
+flex-direction: column;
+height: auto;  
+align-items: center;
+background-color: #fff;
+}
+
+
+.container-sobremim {
+
+width: 725px;
+font-family: 'IBM';
+
+}
+
+.paragrafosobremim {
+
+font-size: 1.5em;
+text-indent: 30px;
+text-align: justify;
+
+}
+
+.p2sobremim {
+
+margin-bottom: 115px;
+
+}
+
+@media (max-width: 750px) {
+    
+    .container-sobremim {
+
+        width: auto;
+        
+        }
+        
+        .paragrafosobremim {
+        
+        font-size: 1.3em;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-indent: 30px;
+        text-align: justify;
+        
+        }
+
+}
+
+
+

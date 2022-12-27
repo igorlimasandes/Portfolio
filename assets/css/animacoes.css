@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@keyframes texto-inicio {
+
+0% {
+
+width: 0%;
+
+}
+
+100% {
+
+width: 100%;
+
+}
+
+}
+
+@keyframes redessociaisinicio {
+
+0% {
+    
+opacity: 0%;
+    
+}
+    
+100% {
+    
+opacity: 100%;
+}
+    
+}
+
+@keyframes arrowup {
+
+0% {
+
+transform: translateY(2px);
+
+}
+
+100% {
+
+transform: translateY(-5px);
+    
+}
+
+}
+
+@keyframes redessociais360 {
+
+0% {
+
+transform: rotateZ(0deg);
+            
+}
+            
+100% {
+            
+transform: rotateZ(360deg);
+                
+}
+
+}
+
+@keyframes nuvem1 {
+    
+0% {
+
+transform: translateY(-10px);
+
+}
+
+100% {
+
+transform: translateY(-50px);
+
+}
+
+}  
+
+@keyframes nuvem2 {
+    
+0% {
+    
+transform: translateY(5px);
+    
+}
+    
+100% {
+    
+transform: translateY(-35px);
+    
+}
+    
+} 
+
+@keyframes nuvem3 {
+    
+0% {
+        
+transform: translateY(25px);
+        
+}
+        
+100% {
+        
+transform: translateY(0px);
+        
+}
+        
+} 
+
+@keyframes nuvem4 {
+    
+0% {
+            
+transform: translateY(20px);
+            
+}
+            
+100% {
+            
+transform: translateY(0px);
+            
+}
+            
+} 
+
+
+
+
+
+
