@@ -25,7 +25,7 @@ for(inicio = 0; inicio < itens.length; inicio++){
 
 function mudarbackground() {
 
-header.classList.toggle('scrollativo', scrollY > 875)
+header.classList.toggle('scrollativo', scrollY > 400)
 
 }    
 
