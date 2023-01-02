@@ -15,32 +15,8 @@ position: relative;
 .nuvens {
 
 position: absolute;
-bottom: 0px;
+bottom: -5px;
 z-index: 0;
-
-}
-
-.nuvem1 {
-
-animation: nuvem1 10s infinite alternate;
-  
-}
-
-.nuvem2 {
-
-animation: nuvem2 8s infinite alternate;
-
-}
-
-.nuvem3 {
-
-animation: nuvem3 8s infinite alternate;
-
-}
-
-.nuvem4 {
-
-animation: nuvem4 3s infinite alternate;
 
 }
 

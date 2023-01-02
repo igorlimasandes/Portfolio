@@ -17,13 +17,100 @@ justify-content: center;
 
 .projetos-item {
 
-width: 350px;
+width: 450px;
 height: 250px;
 margin: 15px;
 margin-bottom: 50px;
 font-family: 'IBM';
 background-color: transparent;
 border: 2.5px ridge var(--azulclaro);
+position: relative;
+border-radius: 20px;
+
+}
+
+.item1 {
+
+background: black;
+
+}
+
+.projetos-item:hover{
+
+cursor: pointer;
+
+}
+
+.projetos-item:hover .titulo-projetos{
+
+opacity: 100%;
+transition: opacity .5s;
+
+}
+
+.projetos-item:hover .projeto-loginpage {
+
+filter: opacity(35%);
+
+}
+
+.projetos-item:hover .imagelink-projeto {
+
+opacity: 100%;
+transition: opacity .5s;
+
+}
+
+.titulo-projetos {
+
+position: absolute;
+opacity: 0%;
+top: 10%;
+left: 50%;
+transform: translate(-50%);
+color: white;
+z-index: 2;
+
+}
+
+.imagelink-projeto {
+
+position: absolute;
+width: 40px;
+top: 50%;
+transform: translateY(-50%);
+background-color: var(--azulclaro);
+border-radius: 2px;
+z-index: 2;
+opacity: 0%;
+filter: saturate(30%);
+
+}
+
+.imagelink-projeto:hover {
+
+filter: saturate(100%);
+
+}
+
+.githublogo-projeto {
+
+left: 30%;
+
+}
+
+.internetlogo-projeto {
+
+right: 30%;
+
+}
+
+.images-projeto {
+
+width: 100%;
+height: 100%;
+border-radius: 20px;
+z-index: 1;
 
 }
 
@@ -64,32 +151,50 @@ position: relative;
     
     }
 
-@media (max-width: 1150px) {
+@media (max-width: 1500px) {
     
-    .container-projetos {
+.container-projetos {
 
-        flex-direction: column;
-        align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
         
+}
+
+}
+
+@media (max-width: 1000px) {
+
+.projeto-loginpage {
+
+filter: opacity(35%);
         
+}
+    
+.titulo-projetos {
+
+opacity: 100%;
+        
+}
+        
+.imagelink-projeto {
+        
+opacity: 100%;
+filter: saturate(100%);
+   
         }
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
+    
+.projetos-item {
 
-    .projetos-item {
+width: 95%;
+height: 250px;
 
-        width: 280px;
-        height: 250px;
-        margin: 15px;
-        margin-bottom: 50px;
-        font-family: 'IBM';
-        background-color: transparent;
-        border: 2.5px ridge var(--azulclaro);
         
-        }
-
 }
 
+}
 

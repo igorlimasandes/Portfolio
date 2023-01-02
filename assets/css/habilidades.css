@@ -22,15 +22,69 @@ display: flex;
 
 }
 
+.item-habilidade:hover .icon-habilidades {
+
+opacity: 0%;
+transition: opacity 0.4s;
+
+
+}
+
+.item-habilidade1:hover  {
+
+background-image: url(../img/htmlcor.png);
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.item-habilidade2:hover {
+
+background-image: url(../img/csscor.png);
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.item-habilidade3:hover {
+
+background-image: url(../img/jscor.png);
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.item-habilidade4:hover {
+
+background-image: url(../img/gitcor.png);
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+.item-habilidade5:hover, .item-habilidade6:hover {
+
+background-image: url(../img/interrogacaocor.png);
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
 .item-habilidade {
 
 display: flex;  
 justify-content: center;  
 margin: 15px;
 background-color: var(--azul);
-width: 80px;
-height: 80px;
-border-radius: 20px;
+width: 85px;
+height: 85px;
+border-radius: 10px;
 align-items: center;
 border: 2px solid var(--branco);
 
@@ -75,7 +129,7 @@ height: 225px;
 
 .icon-habilidades {
 
-width: 60px;
+width: 64px;
 
 }
 
@@ -101,3 +155,25 @@ margin-bottom: 115px;
     }
 }
 
+@media (max-width: 550px) {
+   
+.icon-habilidades {
+
+width: 45px;
+
+}    
+
+.item-habilidade {
+
+width: 64px;    
+height: 64px;
+
+}
+
+.item-habilidade:hover {
+
+background-size: 45px 45px;
+
+}
+
+}
