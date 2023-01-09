@@ -30,9 +30,11 @@ text-align: center;
 
 .inicio-item {
 
-font-family: 'IBM';    
+font-family: 'IBM';   
+position: relative; 
 font-size: 1.8em;
 color: white;
+z-index: 2;
 
 }
 
